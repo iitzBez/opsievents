@@ -82,6 +82,7 @@ h1 {
 }
 
 
+
 /* CARD */
 
 
@@ -107,9 +108,6 @@ h1 {
     padding-bottom: 30px;
 }
 
-.mx-auto {
-    background-color: #f2f2f2;
-}
 
 .card-img-top{
     padding-top: 30px;
@@ -151,17 +149,49 @@ h1 {
     -webkit-transform: scale(1.05); /* Safari and Chrome */
 }
 
+
+/* FOOTER */
+
 .social {
     position: relative;
 }
 
+.bottom-container
+{
+  background-color: #f2f2f2;
+  height: 70px;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
 
-#footer {
-    width: 100%;
+.footer-link
+{
+  display: inline-block;
+  color: #FF3300;
+  margin: 12.5px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.copyright
+{
+  margin-top: 10px;
+  margin: 0;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+footer
+{
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-family: 'Cairo Play', sans-serif;
 }
 
 
 
 
 
-*/
+
+
