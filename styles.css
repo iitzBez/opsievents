@@ -1,0 +1,197 @@
+/* styles.css */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.container {
+	position: relative;
+    padding-top: 2%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.download-button {
+    position: absolute;
+    top: 91%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: #FF3300;
+    border-radius: 12px;
+}
+
+
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.image-container:hover .download-button {
+    opacity: 0.9;
+}
+
+
+.download-button a{
+    display: block;
+    background: #FF3300(0, 0%, 35%);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+
+
+h1 {
+	text-align: center;
+    padding-bottom: 2%;
+}
+
+
+.h1-container {
+	font-family: 'Cairo Play', sans-serif;
+}
+
+.image-container:hover{
+    color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.05);
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari and Chrome */
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    padding: 10px 20px;
+    font-family: 'Cairo Play', sans-serif;
+}
+
+
+
+/* CARD */
+
+
+.card {
+    position: relative;
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        padding-bottom: 20px;
+        margin-top: 10px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-text{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.card-title {
+    padding-bottom: 30px;
+}
+
+
+.card-img-top{
+    padding-top: 30px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 20px;
+}
+
+.card-img-bottom{
+    padding-top: 27px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.card-img-top:hover{
+    color: #424242; 
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    opacity: 1;
+    transform: scale(1.01);
+    -ms-transform: scale(1.01); /* IE 9 */
+    -webkit-transform: scale(1.01); /* Safari and Chrome */
+    
+}
+
+.card-img-bottom:hover{
+    color: #424242; 
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    opacity: 1;
+    transform: scale(1.05);
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari and Chrome */
+}
+
+
+/* FOOTER */
+
+.social {
+    position: relative;
+}
+
+.bottom-container
+{
+  background-color: #f2f2f2;
+  height: 70px;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+.footer-link
+{
+  display: inline-block;
+  color: #FF3300;
+  margin: 12.5px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.copyright
+{
+  margin-top: 10px;
+  margin: 0;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+footer
+{
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-family: 'Cairo Play', sans-serif;
+}
+
+
+
+
+
+
+
