@@ -73,6 +73,9 @@ h1 {
   -webkit-transform: scale(1.05); /* Safari and Chrome */
 }
 
+section {
+    min-height: 50vh;
+}
 
 /* NAVBAR */
 
@@ -144,9 +147,9 @@ h1 {
     -o-transition: all .3s ease-in;
     transition: all .3s ease-in;
     opacity: 1;
-    transform: scale(1.05);
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari and Chrome */
+    transform: scale(1.01);
+    -ms-transform: scale(1.01); /* IE 9 */
+    -webkit-transform: scale(1.01); /* Safari and Chrome */
 }
 
 
@@ -158,7 +161,7 @@ h1 {
 
 .bottom-container
 {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   height: 70px;
   margin-bottom: 0;
   padding-top: 10px;
@@ -181,13 +184,53 @@ h1 {
   padding-top: 10px;
 }
 
-footer
+.copyright-rights {
+    padding-top: 0px;
+    margin-top: 10px;
+  margin: 0;
+  font-size: 12px;
+  padding-top: -10px;
+}
+
+footer{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    font-family: 'Cairo Play', sans-serif;
+height: 10px; 
+line-height: 36px;  
+margin-top: 45px;
+width: 100%;
+}
+/* footer
 {
   margin: 0;
   text-align: center;
   position: relative;
   font-family: 'Cairo Play', sans-serif;
+} */
+
+html
+{
+  margin-bottom: 0;
 }
+
+body{
+    margin: 0;
+}
+
+
+
+
+/* #footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    background: #222;
+    color: white;
+  } */
 
 
 
