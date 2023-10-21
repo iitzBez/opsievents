@@ -170,11 +170,25 @@ section {
 }
 
 .backtop:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
     color: #FF3300;
     text-decoration: none;
+    
 }
 
+
+.hr{
+    color: darkgrey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 4%;
+    margin-bottom: 70px;
+}
+
+.hr:hover{
+    transform: scale(1.2);
+}
 
 
 /* FOOTER */
