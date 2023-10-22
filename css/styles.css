@@ -1,4 +1,5 @@
 /* styles.css */
+
 .image-container {
     position: relative;
     overflow: hidden;
@@ -6,7 +7,7 @@
 }
 
 .container {
-	position: relative;
+    position: relative;
     padding-top: 2%;
 }
 
@@ -31,7 +32,7 @@
     border-radius: 12px;
 }
 
-.download-button a{
+.download-button a {
     display: block;
     background: #FF3300(0, 0%, 35%);
     color: #fff;
@@ -47,33 +48,31 @@
 
 .image-container:hover .download-button {
     opacity: 0.9;
-    
 }
 
 h1 {
-	text-align: center;
+    text-align: center;
     padding-bottom: 2%;
 }
 
-
 .h1-container {
-	font-family: 'Cairo Play', sans-serif;
+    font-family: 'Cairo Play', sans-serif;
 }
 
-.image-container:hover{
-    color: #424242; 
-  -webkit-transition: all .3s ease-in;
-  -moz-transition: all .3s ease-in;
-  -ms-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-  transition: all .3s ease-in;
-  opacity: 1;
-  transform: scale(1.05);
-  -ms-transform: scale(1.05); /* IE 9 */
-  -webkit-transform: scale(1.05); /* Safari and Chrome */
+.image-container:hover {
+    color: #424242;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    opacity: 1;
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari and Chrome */
 }
-
-
 
 section {
     min-height: 50vh;
@@ -86,21 +85,55 @@ section {
     font-family: 'Cairo Play', sans-serif;
 }
 
+/* CAROUSEL */
 
+.carousel-caption {
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    margin: auto;
+    background-color: rgb(255, 51, 0, 0.8);
+    text-align: center;
+    border-top: 1px black solid;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.carousel-text {
+    opacity: 1;
+}
+
+.d-block {
+    width: 60%;
+    margin: auto;
+}
+
+.carousel-control-prev {
+    background-color: #FF3300;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.carousel-control-next {
+    background-color: #FF3300;
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
 /* CARD BUTTONS*/
 
-.card-button{
+.card-button {
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
-.button{
+.button {
     position: absolute;
     transform: translate(-50%, -50%);
     opacity: 1;
     transition: opacity 0.5s;
-    background-color: #FF3300;
+    background-color: rgb(255, 51, 0);
     color: #fff;
     border-radius: 12px;
     text-align: center;
@@ -108,29 +141,31 @@ section {
     padding-bottom: 15px;
 }
 
-.button:hover{
+.button:hover {
     background-color: #FF3300;
     color: #fff;
     text-decoration: none;
 }
 
-
 /* CARDS */
 
 .card {
     position: relative;
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
-        padding-bottom: 20px;
-        margin-top: 10px;
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
+    padding-bottom: 20px;
+    margin-top: 10px;
 }
 
-.card-body{
+.card-body {
     text-align: center;
 }
 
-.card-text{
+.card-text {
     font-size: 16px;
     padding-bottom: 15px;
 }
@@ -139,22 +174,21 @@ section {
     padding-bottom: 30px;
 }
 
-
-.card-img-top{
+.card-img-top {
     padding-top: 30px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
     padding-bottom: 20px;
 }
 
-.card-img-bottom{
+.card-img-bottom {
     padding-top: 27px;
     padding-left: 4px;
     padding-right: 4px;
 }
 
-.card-img-top:hover{
-    color: #424242; 
+.card-img-top:hover {
+    color: #424242;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -ms-transition: all .3s ease-in;
@@ -162,13 +196,14 @@ section {
     transition: all .3s ease-in;
     opacity: 1;
     transform: scale(1.01);
-    -ms-transform: scale(1.01); /* IE 9 */
-    -webkit-transform: scale(1.01); /* Safari and Chrome */
-    
+    -ms-transform: scale(1.01);
+    /* IE 9 */
+    -webkit-transform: scale(1.01);
+    /* Safari and Chrome */
 }
 
-.card-img-bottom:hover{
-    color: #424242; 
+.card-img-bottom:hover {
+    color: #424242;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -ms-transition: all .3s ease-in;
@@ -176,13 +211,13 @@ section {
     transition: all .3s ease-in;
     opacity: 1;
     transform: scale(1.01);
-    -ms-transform: scale(1.01); /* IE 9 */
-    -webkit-transform: scale(1.01); /* Safari and Chrome */
+    -ms-transform: scale(1.01);
+    /* IE 9 */
+    -webkit-transform: scale(1.01);
+    /* Safari and Chrome */
 }
 
-
-
-.backtop{
+.backtop {
     display: block;
     position: relative;
     padding-top: 30px;
@@ -195,15 +230,13 @@ section {
     margin-right: auto;
 }
 
-.backtop:hover{
+.backtop:hover {
     transform: scale(1.1);
     color: #FF3300;
     text-decoration: none;
-    
 }
 
-
-.hr{
+.hr {
     color: darkgrey;
     border-style: none;
     border-top-style: dotted;
@@ -212,10 +245,9 @@ section {
     margin-bottom: 70px;
 }
 
-.hr:hover{
+.hr:hover {
     transform: scale(1.2);
 }
-
 
 /* FOOTER */
 
@@ -223,46 +255,43 @@ section {
     position: relative;
 }
 
-.bottom-container
-{
-  background-color: #ffffff;
-  height: 70px;
-  margin-bottom: 0;
-  padding-top: 10px;
+.bottom-container {
+    background-color: #ffffff;
+    height: 70px;
+    margin-bottom: 0;
+    padding-top: 10px;
 }
 
-.footer-link
-{
-  display: inline-block;
-  color: #FF3300;
-  margin: 12.5px;
-  text-decoration: none;
-  font-size: 22px;
+.footer-link {
+    display: inline-block;
+    color: #FF3300;
+    margin: 12.5px;
+    text-decoration: none;
+    font-size: 22px;
 }
 
-.copyright
-{
-  margin-top: 10px;
-  margin: 0;
-  font-size: 12px;
-  padding-top: 10px;
+.copyright {
+    margin-top: 10px;
+    margin: 0;
+    font-size: 12px;
+    padding-top: 10px;
 }
 
 .copyright-rights {
     padding-top: 0px;
     margin-top: 10px;
-  margin: 0;
-  font-size: 12px;
-  padding-top: -10px;
+    margin: 0;
+    font-size: 12px;
+    padding-top: -10px;
 }
 
-footer{
+footer {
     margin: 0;
     text-align: center;
     position: relative;
     font-family: 'Cairo Play', sans-serif;
-    height: 10px; 
-    line-height: 36px;  
+    height: 10px;
+    line-height: 36px;
     margin-top: 45px;
     width: 100%;
 }
@@ -275,17 +304,13 @@ footer{
   font-family: 'Cairo Play', sans-serif;
 } */
 
-html
-{
-  margin-bottom: 0;
+html {
+    margin-bottom: 0;
 }
 
-body{
+body {
     margin: 0;
 }
-
-
-
 
 /* #footer {
     position: fixed;
@@ -296,10 +321,3 @@ body{
     background: #222;
     color: white;
   } */
-
-
-
-
-
-
-
