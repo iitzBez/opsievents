@@ -87,6 +87,7 @@ section {
 
 /* CAROUSEL */
 
+
 .carousel-caption {
     position: relative;
     overflow: hidden;
@@ -99,6 +100,7 @@ section {
     border-left: 1px black solid;
     border-bottom: 1px black solid;
 }
+
 
 .carousel-text {
     opacity: 1;
