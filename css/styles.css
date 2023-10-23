@@ -1,5 +1,6 @@
 /* styles.css */
 
+
 .image-container {
     position: relative;
     overflow: hidden;
@@ -60,7 +61,7 @@ h1 {
 }
 
 .image-container:hover {
-    color: #424242;
+    /* color: #424242; */
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -ms-transition: all .3s ease-in;
@@ -130,13 +131,23 @@ section {
     padding-top: 10px;
 }
 
+#body > section > div.container-fluid > div > div > div > div > div > div > div:nth-child(1) > div > div > a {
+    background-color: #FF3300;
+    color: #fff;
+}
+
+#body > section > div.container-fluid > div > div > div > div > div > div > div:nth-child(2) > div > div > a {
+    background-color: #FF3300;
+    color: #fff;
+}
+
 .button {
     position: absolute;
     transform: translate(-50%, -50%);
     opacity: 1;
     transition: opacity 0.5s;
-    background-color: rgb(255, 51, 0);
-    color: #fff;
+    background-color: #ff3300;
+    color: #000000;
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
@@ -151,6 +162,10 @@ section {
 
 /* CARDS */
 
+.container-fluid {
+    padding: 0px 0px;
+}
+
 .card {
     position: relative;
     margin: 0 auto;
@@ -161,6 +176,8 @@ section {
     /* Added */
     padding-bottom: 20px;
     margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .card-body {
@@ -181,12 +198,7 @@ section {
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 20px;
-}
-
-.card-img-bottom {
-    padding-top: 27px;
-    padding-left: 4px;
-    padding-right: 4px;
+    height: auto;
 }
 
 .card-img-top:hover {
@@ -204,20 +216,10 @@ section {
     /* Safari and Chrome */
 }
 
-.card-img-bottom:hover {
-    color: #424242;
-    -webkit-transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -ms-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    transition: all .3s ease-in;
-    opacity: 1;
-    transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    /* IE 9 */
-    -webkit-transform: scale(1.01);
-    /* Safari and Chrome */
-}
+
+
+
+/* FOOTER */
 
 .backtop {
     display: block;
@@ -245,7 +247,20 @@ section {
     border-width: 5px;
     width: 4%;
     margin-bottom: 70px;
+    margin-left: 48%;
 }
+
+.hr2 {
+    color: darkgrey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 50%;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-left: 25%;
+}
+
 
 .hr:hover {
     transform: scale(1.2);
@@ -258,7 +273,7 @@ section {
 }
 
 .bottom-container {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     height: 70px;
     margin-bottom: 0;
     padding-top: 10px;

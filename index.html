@@ -14,7 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&display=swap" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>OPSI Events</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/opsilogo.ico?v=2"/>
 </head>
@@ -24,8 +25,8 @@
     <section>
         <!-- NAVBAR -->
 
-        <nav class="navbar navbar-light bg-light">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#">
       <img src="https://irp.cdn-website.com/04a8bf28/dms3rep/multi/OPSI_logo_fullRGB.svg" width="70" height="20" alt="opsi-logo">
     </a>
@@ -37,7 +38,7 @@
       </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown" data-bs-theme="dark">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Event Images
               </a>
@@ -104,17 +105,23 @@
             </a>
         </div>
 
-
+        <hr class="hr2">
         <!-- CARDS -->
 
-        <div class="container-fluid">
-            <div class="mx-auto card bg-light">
+        <div class="container-fluid g-0">
+            <div class="mx-auto card">
                 <div class="card-body">
                     <div class="container">
-                        <div class="card-columns mx-auto d-flex justify-content-center col-12">
+                        <div class="row">
+
+                        <div class="card-columns mx-auto d-flex justify-content-center">
                             <!-- ONLINE EVENT -->
+
+                            
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+
                             <div class="card">
-                                <img class="card-img-top" src="images\teambuilding.png" alt="Card image cap" height="300px">
+                                <img class="card-img-top" src="images\teambuilding.png" alt="Card image cap">
                                 <div class="card-block">
                                     <h3 class="card-title h1-container">Online Team Building - Quiz</h3>
                                     <p class="card-text"><span style="color:#FF3300;">WHERE:</span> ZOOM Online Meeting</p>
@@ -126,9 +133,12 @@
                                     </div>
                                 </div>
                             </div>
+
                             <!-- Year-End Function -->
+
+
                             <div class="card">
-                                <img class="card-img-top" src="images\mythos-inside.jpg" alt="Card image cap" height="300px">
+                                <img class="card-img-top" src="images\mythos-inside.jpg" alt="Card image cap">
                                 <div class="card-block">
                                     <h3 class="card-title h1-container">Year-End Function</h3>
                                     <p class="card-text"><span style="color:#FF3300;">WHERE:</span> MYTHOS, Rosebank</p>
@@ -140,13 +150,22 @@
                                     </div>
                                 </div>
                             </div>
+
+                            </div>
+                            
+
                         </div>
+
+                    </div>
+
                     </div>
                 </div>
             </div>
         </div>
-        </div>
 
+       <!--  <div class="card-button">
+            <a href="https://maps.app.goo.gl/NuCRJwmSeRDZpgiU6" class="btn button" target="_blank">Location</a>
+        </div> -->
 
         <footer>
 
@@ -160,6 +179,9 @@
         </footer>
 
     </section>
+
+
+    
 
 </body>
 
