@@ -86,6 +86,10 @@ section {
     font-family: 'Cairo Play', sans-serif;
 }
 
+.nav-item{
+    text-align: right;
+}
+
 /* CAROUSEL */
 
 
@@ -160,6 +164,8 @@ section {
     text-decoration: none;
 }
 
+
+
 /* CARDS */
 
 .container-fluid {
@@ -215,7 +221,6 @@ section {
     -webkit-transform: scale(1.01);
     /* Safari and Chrome */
 }
-
 
 
 
