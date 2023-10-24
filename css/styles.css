@@ -222,6 +222,10 @@ section {
     /* Safari and Chrome */
 }
 
+.card-row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 /* FOOTER */
