@@ -288,6 +288,134 @@ section {
     /* Safari and Chrome */
 }
 
+
+
+
+
+
+
+/* .card-body {
+    text-align: center;
+} */
+
+
+
+
+
+
+/* FOOTER */
+
+.backtop {
+    display: block;
+    position: relative;
+    padding-top: 30px;
+    text-decoration: inherit;
+    text-align: center;
+    font-size: 20px;
+    width: 20%;
+    color: #FF3300;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backtop:hover {
+    transform: scale(1.1);
+    color: #FF3300;
+    text-decoration: none;
+}
+
+.hr {
+    color: darkgrey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 4%;
+    margin-bottom: 70px;
+    margin-left: 48%;
+}
+
+.hr2 {
+    color: darkgrey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 50%;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-left: 25%;
+}
+
+
+.hr:hover {
+    transform: scale(1.2);
+}
+
+/* FOOTER */
+
+.social {
+    position: relative;
+}
+
+.bottom-container {
+    /* background-color: #ffffff; */
+    height: 70px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.footer-link {
+    display: inline-block;
+    color: #FF3300;
+    margin: 12.5px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.copyright {
+    margin-top: 10px;
+    margin: 0;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.copyright-rights {
+    padding-top: 0px;
+    margin-top: 10px;
+    margin: 0;
+    font-size: 12px;
+    padding-top: -10px;
+}
+
+footer {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    font-family: 'Cairo Play', sans-serif;
+    height: 10px;
+    line-height: 36px;
+    margin-top: 45px;
+    width: 100%;
+}
+
+
+
+
+/* @MEDIA STYLING */
+
+@media(max-width: 991px) {
+    .download-button {
+        position: absolute;
+        top: 84%;
+        left: 72%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.5s;
+        background-color: #FF3300;
+        border-radius: 12px;
+    }
+}
+
+
 @media (max-width: 767px) {
     .card-row {
         display: inline-flex;
@@ -371,8 +499,34 @@ section {
         width: 90%;
         margin: auto;
     }
+
+    .backtop {
+        display: block;
+        position: relative;
+        padding-top: 30px;
+        text-decoration: inherit;
+        text-align: center;
+        font-size: 20px;
+        width: 30%;
+        color: #FF3300;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .download-button {
+        position: absolute;
+        top: 90%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.5s;
+        background-color: #FF3300;
+        border-radius: 12px;
+    }
     
 }
+
+
 
 @media (max-width: 408px) {
     .card-row {
@@ -465,131 +619,28 @@ section {
         width: 90%;
         margin: auto;
     }
+
+    .backtop {
+        display: block;
+        position: relative;
+        padding-top: 30px;
+        text-decoration: inherit;
+        text-align: center;
+        font-size: 20px;
+        width: 50%;
+        color: #FF3300;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .download-button {
+        position: absolute;
+        top: 80%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.5s;
+        background-color: #FF3300;
+        border-radius: 12px;
+    }
 }
-
-
-
-
-
-/* .card-body {
-    text-align: center;
-} */
-
-
-
-
-
-
-/* FOOTER */
-
-.backtop {
-    display: block;
-    position: relative;
-    padding-top: 30px;
-    text-decoration: inherit;
-    text-align: center;
-    font-size: 20px;
-    width: 10%;
-    color: #FF3300;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.backtop:hover {
-    transform: scale(1.1);
-    color: #FF3300;
-    text-decoration: none;
-}
-
-.hr {
-    color: darkgrey;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 5px;
-    width: 4%;
-    margin-bottom: 70px;
-    margin-left: 48%;
-}
-
-.hr2 {
-    color: darkgrey;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 5px;
-    width: 50%;
-    margin-bottom: 70px;
-    margin-top: 70px;
-    margin-left: 25%;
-}
-
-
-.hr:hover {
-    transform: scale(1.2);
-}
-
-/* FOOTER */
-
-.social {
-    position: relative;
-}
-
-.bottom-container {
-    /* background-color: #ffffff; */
-    height: 70px;
-    margin-bottom: 0;
-    padding-top: 10px;
-}
-
-.footer-link {
-    display: inline-block;
-    color: #FF3300;
-    margin: 12.5px;
-    text-decoration: none;
-    font-size: 22px;
-}
-
-.copyright {
-    margin-top: 10px;
-    margin: 0;
-    font-size: 12px;
-    padding-top: 10px;
-}
-
-.copyright-rights {
-    padding-top: 0px;
-    margin-top: 10px;
-    margin: 0;
-    font-size: 12px;
-    padding-top: -10px;
-}
-
-footer {
-    margin: 0;
-    text-align: center;
-    position: relative;
-    font-family: 'Cairo Play', sans-serif;
-    height: 10px;
-    line-height: 36px;
-    margin-top: 45px;
-    width: 100%;
-}
-
-/* footer
-{
-  margin: 0;
-  text-align: center;
-  position: relative;
-  font-family: 'Cairo Play', sans-serif;
-} */
-
-
-
-/* #footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    height: 20px;
-    background: #222;
-    color: white;
-  } */
