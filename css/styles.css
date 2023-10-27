@@ -1,5 +1,17 @@
 /* styles.css */
 
+html {
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.checkbox {
+    position: inherit;
+    text-align: center;
+}
 
 .image-container {
     position: relative;
@@ -8,6 +20,11 @@
 }
 
 .container {
+    position: relative;
+    padding-top: 2%;
+}
+
+.container-cards {
     position: relative;
     padding-top: 2%;
 }
@@ -135,12 +152,12 @@ section {
     padding-top: 10px;
 }
 
-#body > section > div.container-fluid > div > div > div > div > div > div > div:nth-child(1) > div > div > a {
+#body > div.container-cards.col-sm-12.col-md-12.col-lg-6.mx-auto > div > div:nth-child(1) > div > div > a {
     background-color: #FF3300;
     color: #fff;
 }
 
-#body > section > div.container-fluid > div > div > div > div > div > div > div:nth-child(2) > div > div > a {
+#body > div.container-cards.col-sm-12.col-md-12.col-lg-6.mx-auto > div > div:nth-child(2) > div > div > a {
     background-color: #FF3300;
     color: #fff;
 }
@@ -168,13 +185,28 @@ section {
 
 /* CARDS */
 
-.container-fluid {
+
+/* .container-cards {
+    text-align: center;
+    position: absolute;
+    display: flex;
+} */
+
+
+/* .container-fluid {
     padding: 0px 0px;
+} */
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
 }
 
 .card {
     position: relative;
-    margin: 0 auto;
+    margin: 0 1rem;
     /* Added */
     float: none;
     /* Added */
@@ -182,12 +214,11 @@ section {
     /* Added */
     padding-bottom: 20px;
     margin-top: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.card-body {
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
+    width: 400px;
+    justify-content: center;
 }
 
 .card-text {
@@ -222,10 +253,127 @@ section {
     /* Safari and Chrome */
 }
 
-.card-row {
-    margin-left: 10px;
-    margin-right: 10px;
+@media (max-width: 767px) {
+    .card-row {
+        display: inline-flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .card {
+        margin: auto;
+        width: 90%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-cards {
+        padding: 1rem 1rem;
+        width: 90%;
+        margin: 1rem 1rem;
+        text-align: center;
+        flex-direction: column;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .card-img-top {
+        padding-top: 30px;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 20px;
+        height: auto;
+        width: 60%;
+    }
 }
+
+@media (max-width: 408px) {
+    .card-row {
+        display: inline-flex;
+        flex-direction: column;
+        width: 98%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 98%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container-cards {
+        padding: 1rem 1rem;
+        width: 98%;
+        margin: 1rem 1rem;
+        text-align: center;
+        flex-direction: column;
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-img-top {
+        padding-top: 30px;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 20px;
+        height: 10%;
+        width: 35%;
+        text-align: center;
+    }
+
+
+    h1 {
+        padding-top: 10%;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    
+    .h1-container {
+        font-family: 'Cairo Play', sans-serif;
+    }
+
+
+    .navbar {
+        font-family: 'Cairo Play', sans-serif;
+        font-size: small;
+    }
+
+    /* .dropdown-menu {
+        width: 15px;
+        height: 25px;
+    }
+
+    .navbar-nav {
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav-item {
+        width: 25px;
+        height: 25px;
+    } */
+}
+
+
+
+
+
+/* .card-body {
+    text-align: center;
+} */
+
+
+
+
 
 
 /* FOOTER */
@@ -330,13 +478,7 @@ footer {
   font-family: 'Cairo Play', sans-serif;
 } */
 
-html {
-    margin-bottom: 0;
-}
 
-body {
-    margin: 0;
-}
 
 /* #footer {
     position: fixed;
