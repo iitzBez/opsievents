@@ -122,6 +122,7 @@ section {
     width: 90px;
     height: 35px;
     margin-right: 20px;
+    margin-top: 5px;
 }
 
 .pos-f-t {
@@ -338,6 +339,14 @@ section {
         text-align: center;
         align-items: center;
     }
+
+    .navbar-logo {
+        width: 90px;
+        height: 35px;
+        margin-top: 20px;
+        
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 408px) {
@@ -417,6 +426,13 @@ section {
         flex-direction: column;
         text-align: center;
         align-items: center;
+    }
+
+    .navbar-logo {
+        width: 90px;
+        height: 35px;
+        margin-top: 20px;
+        margin-right: 0;
     }
 
 }
