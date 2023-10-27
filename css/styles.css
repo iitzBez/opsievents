@@ -298,6 +298,17 @@ section {
         align-items: center;
     }
 
+    h1 {
+        padding-top: 10%;
+        text-align: center;
+        padding-bottom: 10%;
+        margin-top: 20px;
+    }
+    
+    .h1-container {
+        font-family: 'Cairo Play', sans-serif;
+    }
+
     .container-cards {
         padding: 1rem 1rem;
         width: 90%;
@@ -347,6 +358,12 @@ section {
         
         margin-right: 0;
     }
+
+    .d-block {
+        width: 90%;
+        margin: auto;
+    }
+    
 }
 
 @media (max-width: 408px) {
@@ -393,6 +410,7 @@ section {
         padding-top: 10%;
         text-align: center;
         padding-bottom: 10%;
+        margin-top: 20px;
     }
     
     .h1-container {
@@ -435,6 +453,10 @@ section {
         margin-right: 0;
     }
 
+    .d-block {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 
